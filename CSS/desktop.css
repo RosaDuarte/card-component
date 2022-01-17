@@ -1,0 +1,46 @@
+section{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    place-content: center;
+}
+.card{
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 1440px;
+    height: 60%;
+    overflow: hidden;
+}
+.image{
+    width: 50%;
+    height: 100%;
+    background-image: url(../assets/image-header-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0 8px 8px 0;
+}
+.container{
+    width: 50%;
+    margin: auto;
+    text-align: left;
+    padding: 40px 60px;
+}
+.container p{
+    margin-top: 20px;
+    margin-right: 60px;
+}
+.container-card{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.container .container-card p{
+    margin-right: 20px;
+    margin-top: 0;
+}
+.container .container-card div:first-child{
+    margin-left: 0;
+}
+
