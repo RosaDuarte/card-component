@@ -8,7 +8,7 @@ section{
     display: flex;
     flex-direction: row-reverse;
     max-width: 1440px;
-    height: 60%;
+    height: auto;
     overflow: hidden;
 }
 .image{

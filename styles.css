@@ -37,6 +37,17 @@ section{
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 8px 8px 0 0;
+
+    position: relative;
+}
+.image::before{
+    content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(170,92,219,0.6);
 }
 .container{
     text-align: center;
