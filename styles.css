@@ -37,7 +37,6 @@ section{
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 8px 8px 0 0;
-
     position: relative;
 }
 .image::before{
@@ -48,6 +47,7 @@ section{
 	left: 0;
 	right: 0;
 	background-color: rgba(170,92,219,0.6);
+    border-radius: 8px 8px 0 0;
 }
 .container{
     text-align: center;
